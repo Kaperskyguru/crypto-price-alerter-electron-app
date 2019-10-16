@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,600");
+
+body {
+    background: #262626;
+    color: #fff;
+    font-family: 'Montserrat';
+    margin: 0;
+}
+
+.row {
+    width: 100%;
+    background: #1A1A1A;
+    border-bottom: 3px solid #FF0057;
+    display: grid;
+    grid-template-columns: 35% auto 35%;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.row3 {
+    width: 100%;
+    margin-top: 10px;
+    background: #1A1A1A;
+}
+
+.cryptos {
+    width: 100%;
+    margin-top: 10px;
+    background: #1A1A1A;
+    border-bottom: 1px solid #FF0057;
+    display: grid;
+    grid-template-columns: 35% auto 35%;
+    align-items: center;
+}
+
+
+ #price-container div {
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+ #price-container .sty {
+    align-content: flex-end;
+    align-items: flex-end;
+    text-align: end;
+}
+
+
+
+.cryptos #goal-container {
+    padding: 10px;
+}
+
+.cryptos .subtext {
+    font-size: .5em;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.cryptos img {
+    width: 20px;
+}
+
+.cryptos .fa-caret-up {
+    color: aqua;
+}
+
+.cryptos h1 {
+    margin: 0 0 10px 0
+}
+
+.cryptos button {
+    float: right;
+    background: #FF0057;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#price-container {
+    display: grid;
+    background: #353535;
+    padding: 0 10px;
+    text-align: center;
+    grid-template-columns: 20% auto;
+    align-items: center;
+}
+
+#goal-container {
+    padding: 20px;
+
+}
+
+.subtext {
+    font-size: .8em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 20px;
+}
+
+h1 {
+    margin: 0 0 10px 0
+}
+
+button {
+    float: right;
+    background: #FF0057;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-right: 30px;
+    cursor: pointer;
+}
